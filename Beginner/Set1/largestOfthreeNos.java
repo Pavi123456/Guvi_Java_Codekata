@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vowelRconsonant;
+package largestOfThree;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author Sri Kumaran DR
  */
-public class vowelRconsonant {
+public class largestOfThree {
 
     /**
      * @param args the command line arguments
