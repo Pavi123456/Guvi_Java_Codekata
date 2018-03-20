@@ -28,7 +28,7 @@ public static void main(String[] args) {
             else 
                 System.out.println("Invalid Input");
         }
-        if((array[0]>array[2])&&(array[0]>array[1]))    
+        if((array[0]>array[1])&&(array[0]>array[2]))    
             System.out.println(array[0]);
         else if((array[1]>array[2])&&(array[1]>array[0]))
             System.out.println(array[1]);
