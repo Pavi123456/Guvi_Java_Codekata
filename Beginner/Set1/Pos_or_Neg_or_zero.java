@@ -1,4 +1,3 @@
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -12,20 +11,20 @@ public class positiveOrNegOrZero {
 
         Scanner sc = new Scanner(System.in);
         String result="";
-        int n=0;
+        double n=0;
         try{
-            n = sc.nextInt();
+            n = sc.nextDouble();
             if(n>100000){
             throw new IndexOutOfBoundsException("out of range");
             }
         }
         catch(InputMismatchException e){
-                System.out.println("Input mismatch enter only integers");
+                System.out.println("Input mismatch enter only integers and less than 100001");
             System.exit(0);
         }
         catch (IndexOutOfBoundsException o){
-            System.out.println("Out of range do not enter greater than 100000");
-            System.exit(0);
+            //System.out.println("Out of range do not enter greater than 100000");
+            throw new InputMismatchException("out of bounds");
         }
         
         result = n>0? "Positive" :n==0? "Zero" : "Negative";
