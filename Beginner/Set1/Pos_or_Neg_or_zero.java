@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class positiveOrNegOrZero {
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         Scanner sc = new Scanner(System.in);
         String result="";
         int n=0;
