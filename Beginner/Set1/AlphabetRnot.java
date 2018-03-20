@@ -21,7 +21,7 @@ public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
         char c = sc.next().charAt(0);
-        if(((c>='A')&&(c<='Z'))||((c>='a')&&(c<='z'))){
+        if(((c<='Z')&&(c>='A'))||((c<='z')&&(c>='a'))){
             System.out.println("Alphabet");
         }
         else 
