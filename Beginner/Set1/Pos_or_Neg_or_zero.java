@@ -19,7 +19,7 @@ public class positiveOrNegOrZero {
             }
         }
         catch(InputMismatchException e){
-                System.out.println("Input mismatch enter only integers and less than 100001");
+                System.out.println("Input mismatch enter only integers not grater than 100000");
             System.exit(0);
         }
         catch (IndexOutOfBoundsException o){
