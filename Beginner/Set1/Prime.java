@@ -14,16 +14,14 @@ public class PrimeRnot {
     
     public void prime(){
         Scanner sc = new Scanner(System.in);
-        int num = 0;
+        double num = 0;
         int flag='\0';
-        try {
-//            if(sc.hasNextDouble()){
-//                num = (int)sc.nextDouble();
-//            }
-//            else{
-                num=sc.nextInt();
-//            }
-            if(num==1){
+        try {            
+            num=sc.nextInt();
+            if(num>1000){
+                throw new IndexOutOfBoundsException() ;
+            }
+            else if(num==1){
             System.out.println("Neither Prime nor Composite");
             }
             else if(num==2){
@@ -42,6 +40,10 @@ public class PrimeRnot {
             }
         }
         catch (InputMismatchException e) {
+            System.out.println("Invalid input");
+            System.exit(0);
+        }
+        catch (IndexOutOfBoundsException e) {
             System.out.println("Invalid input");
             System.exit(0);
         }
