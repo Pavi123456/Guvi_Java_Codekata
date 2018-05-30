@@ -6,7 +6,7 @@ public class MyClass {
         int a,b,i,j,flag=0;
         a = sc.nextInt();
         b = sc.nextInt();
-        if((a<=100000)&&(b<=100000)){
+        if((a<=1000)&&(b<=1000)){
             for(i=a;i<=b;i++){
                 if(i==1){
                     i++;
@@ -30,7 +30,7 @@ public class MyClass {
             }
         }
         else{
-            System.out.println("Enter no. within 100000 only");
+            System.out.println("Enter no. within 1000 only");
         }
     }
 }
