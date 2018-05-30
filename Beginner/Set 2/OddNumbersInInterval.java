@@ -20,6 +20,9 @@ public class MyClass {
                     i+=2;
                 }
             }
-        }    
+        }
+        else{
+            System.out.println("Enter no. within 100000 only");
+        }
     }
 }
