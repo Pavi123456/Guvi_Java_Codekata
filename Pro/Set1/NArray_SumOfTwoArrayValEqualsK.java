@@ -13,13 +13,12 @@ public class MyClass {
         outerloop:
         for(int l=0;l<n;l++){
             for(int j=l+1;j<n;j++){
-                System.out.println(a[l]+" + "+a[j]+" Sum = "+(a[l]+a[j]));
                 if((a[l]+a[j])==k){
                     //System.out.println("yes");
                     flag=1;
                     break outerloop;
                 }
-            }System.out.println(".........................................");
+            }
         }
         if(flag==1){
             System.out.println("yes");
