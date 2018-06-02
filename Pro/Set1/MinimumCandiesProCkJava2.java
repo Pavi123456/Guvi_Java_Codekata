@@ -11,7 +11,7 @@ public class MyClass {
             a[i]=sc.nextInt();
             sum=sum+a[i];
         }
-        for(int i=1;(i<n)&&(!flag);i++){
+        for(int i=1;(i<n)&&(flag);i++){
             if(a[i]!=a[0]){
                 flag=false;
             }
