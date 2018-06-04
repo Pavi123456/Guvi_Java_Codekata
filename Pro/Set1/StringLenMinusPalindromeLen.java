@@ -11,6 +11,10 @@ public class MyClass {
         String s = new String();
         Scanner sc = new Scanner(System.in);
         s=sc.nextLine();
+        s=s.replace(" ","");
+        //System.out.println(s);
+        s=s.toUpperCase();
+        //System.out.println(s);
         //System.out.println("original string = "+s);
         MyClass m = new MyClass();
         int length=0;
