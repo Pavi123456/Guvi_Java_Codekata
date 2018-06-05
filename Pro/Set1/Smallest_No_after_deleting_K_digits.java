@@ -1,3 +1,4 @@
+//rechechecking removed all other op stmts
 import java.util.*;
 import java.lang.Math;
 public class AL{
@@ -25,4 +26,4 @@ public class AL{
     }
     
 }
-//rechechecking removed all other op stmts
+
