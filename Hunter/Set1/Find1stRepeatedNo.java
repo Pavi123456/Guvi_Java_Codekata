@@ -15,6 +15,9 @@ public class RepeatedNos{
                 System.out.println(s.charAt(i));
                 break;
             }
+            if(i==n-1){
+                System.out.println("unique");
+            }
         }
        
     }
