@@ -20,6 +20,6 @@ public class Reverse{
             r=r +" ";
             //System.out.println(r);
         }
-        System.out.println(r.substring(0,r.length()-1));
+        System.out.println(r.substring(0,r.length()));
     }
 }
