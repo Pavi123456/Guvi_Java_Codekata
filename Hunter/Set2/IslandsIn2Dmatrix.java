@@ -73,6 +73,6 @@ public class MyClass {
                 }   
             }
         }
-        System.out.println("Islands = "+count);
+        System.out.println(count);
     }
 }
