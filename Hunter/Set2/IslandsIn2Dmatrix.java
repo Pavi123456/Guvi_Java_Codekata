@@ -57,6 +57,10 @@ public class MyClass {
                         for(l=cs;l<=ce;l++){
                             //System.out.println("k = "+k+" L = "+l);
                             if((k==pi)&&(l==pj)){
+                                if((k==re)&&(l==ce)){
+                                //System.out.println("incrementing");
+                                count++;
+                                }
                                 //System.out.println("continued");
                                 continue;
                             }
