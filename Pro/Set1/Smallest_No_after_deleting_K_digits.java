@@ -1,7 +1,7 @@
 //New
-import java.util.*;
+import java.util.Scanner;
 import java.lang.Math;
-public class AL{
+public class ALL{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         long ip = sc.nextLong();
@@ -21,10 +21,7 @@ public class AL{
         result = ip/div;
         result=result*div;
         result=ip-result;
-        System.out.println(result);
-        
-    }
-    
-}
+        System.out.println(result);   
+    }  }
 //????
 //checking new testcases
