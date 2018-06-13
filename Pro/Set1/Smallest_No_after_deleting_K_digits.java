@@ -1,5 +1,4 @@
-//rechechecking removed all other op stmts
-//hadshahsdhasdhahsdhasdhasdhasdh
+//New
 import java.util.*;
 import java.lang.Math;
 public class AL{
