@@ -10,11 +10,11 @@ public class RepeatedNos{
             a[i]=sc.nextInt();
             if((i%2==0)&&(a[i]%2==1)){
                 //System.out.print(a[i]+" ");
-                s=s+a[i-2]+" ";
+                s=s+a[i]+" ";
             }
             else if((i%2==1)&&(a[i]%2==0)){
                 //System.out.print(a[i]+" ");
-                s=s+a[i-2]+" ";
+                s=s+a[i]+" ";
             }
             //System.out.println(s+"--");
             if(i==n-1){
