@@ -23,7 +23,7 @@ public class PrimeRnot {
                 else 
                     flag=1;
             }
-            System.out.println(flag==1?"no":"no");
+            System.out.println(flag==1?"yes":"no");
         }
     }
 
