@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Corrected code 
 public class StringRev{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -9,3 +9,4 @@ public class StringRev{
             System.out.print(s.charAt(i));
     }
 }
+//Corrected code 
