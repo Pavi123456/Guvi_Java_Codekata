@@ -23,8 +23,8 @@ public class Max{
         //}
         
         if(n%2==1)
-            System.out.print(a[(n/2)]+" ");
+            System.out.print(a[(n/2)]);
         else
-            System.out.print((a[(n/2)-1]+a[n/2])/2+" ");
+            System.out.print((a[(n/2)-1]+a[n/2])/2);
     }
 }
